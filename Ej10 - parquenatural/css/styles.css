@@ -1,0 +1,90 @@
+html {
+
+    background-color: rgb(216, 216, 216);
+
+}
+
+body {
+
+    background-color: white;
+    border: 1px gray solid;
+    min-width: 900px;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+h1 {
+
+    text-align: center;
+    color: green;
+    letter-spacing: 10px;
+
+}
+
+h1 > span{
+
+    color: orange;
+
+}
+
+ul {
+
+    display: inline-block;
+    width: 10%;
+    vertical-align: top;
+    list-style: none;
+    text-align: center;
+
+}
+
+li {
+
+    width: 70px;
+    padding: 5px;
+    margin: 5px;
+    background-color: greenyellow;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 30%, greenyellow 100%);
+
+}
+
+li:hover {
+
+    color: black;
+    background-color: orange;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 30%, orange 100%);
+
+}
+
+a {
+
+    text-decoration: none;
+    color: inherit;
+
+}
+
+div {
+
+    width: 75%;
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    border: 1px gray solid;
+    background: rgb(168,168,168);
+    background: linear-gradient(0deg, rgba(168,168,168,1) 0%, rgba(255,255,255,1) 10%, rgba(255,255,255,1) 90%, rgba(168,168,168,1) 100%);
+
+}
+
+h2 {
+
+    color: greenyellow;
+    border-bottom: 1px gray solid;
+
+}
+
+h3 {
+
+    color: orange;
+
+}

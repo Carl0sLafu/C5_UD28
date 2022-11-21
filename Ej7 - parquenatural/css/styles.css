@@ -1,0 +1,40 @@
+body {
+
+    border: 3px gray solid;
+
+}
+
+h1 {
+
+    text-align: center;
+    color: green;
+    letter-spacing: 10px;
+
+}
+
+h1 > span{
+
+    color: orange;
+
+}
+
+div {
+
+    margin: 20px;
+    padding: 10px;
+    border: 1px gray solid;
+
+}
+
+h2 {
+
+    color: greenyellow;
+    border-bottom: 1px gray solid;
+
+}
+
+h3 {
+
+    color: orange;
+
+}

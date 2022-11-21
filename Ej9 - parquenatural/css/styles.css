@@ -1,0 +1,78 @@
+body {
+
+    border: 3px gray solid;
+    min-width: 900px;
+    max-width: 900px;
+    margin: auto;
+
+}
+
+h1 {
+
+    text-align: center;
+    color: green;
+    letter-spacing: 10px;
+
+}
+
+h1 > span{
+
+    color: orange;
+
+}
+
+ul {
+
+    display: inline-block;
+    width: 10%;
+    vertical-align: top;
+    list-style: none;
+    text-align: center;
+
+}
+
+li {
+
+    width: 70px;
+    padding: 5px;
+    margin: 5px;
+    background-color: greenyellow;
+
+}
+
+li:hover {
+
+    color: black;
+    background-color: orange;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: inherit;
+
+}
+
+div {
+
+    width: 75%;
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    border: 1px gray solid;
+
+}
+
+h2 {
+
+    color: greenyellow;
+    border-bottom: 1px gray solid;
+
+}
+
+h3 {
+
+    color: orange;
+
+}
